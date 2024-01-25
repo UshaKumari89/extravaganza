@@ -71,7 +71,7 @@ const Navbar = () => {
             </Link> */}
             <Link to="/attraction" onClick={toggleMenu}>
               <motion.li variants={item} className="menu-item attraction">
-                <FontAwesomeIcon icon={faGlobe} /> Attraktioner
+                <FontAwesomeIcon icon={faGlobe} /> Attraktion
               </motion.li>
             </Link>
             <Link to="/aboutUs" onClick={toggleMenu}>
