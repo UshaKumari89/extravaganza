@@ -1,0 +1,42 @@
+.footer {
+    background-color: rgb(3, 101, 73);
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 3rem;
+  }
+  
+  .footer-content {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    justify-content: space-evenly;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .navigation {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .navigation a {
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+  }
+  .navigation a:hover {
+    text-decoration: underline;
+    font-size: 1.1rem;
+    
+  }
+  .footer-rights {
+    font-size: 0.8rem;
+  }
+  

@@ -1,0 +1,92 @@
+/* Home.css */
+@import '../../src/Var.css';
+/* Home.css */
+.home-container {
+    position: relative;
+    width: 100%;
+    height: 80vh;
+    overflow: hidden;
+   
+  }
+  
+
+
+  /* Style for the image background */
+  .image-background {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .card-container{
+    width: 80%;
+    margin: -3rem auto  3rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    z-index: 99;
+}
+.video-container {
+  width: 90%;
+  height: 100%;
+  overflow: hidden;
+  z-index: -1;
+  margin: auto;
+
+}
+
+.video-background {
+  width: 100%;
+  height: 70vh;
+  object-fit: cover;
+}
+.bg-img {
+  max-height: 500px; /* Adjust the max-height as needed */
+  overflow: hidden;
+}
+
+.bg-img img {
+  width: 100%;
+  height: auto;
+}
+
+.news-container{
+  margin-top: 6rem;
+}
+.wider-card {
+  /* Additional styles for making the card wider */
+  max-width: 800px; 
+  height: auto;
+}
+
+
+
+/* Home.css */
+.bg-img-container {
+  position: relative;
+}
+
+.bg-img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  margin-top: 8rem;
+  height: 50%;
+  background: rgba(0, 0, 0, 0.5); /* Adjust the opacity and color as needed */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.discount-text {
+  color: #fff; /* Text color for the discount */
+  font-size: 4rem; /* Adjust the font size as needed */
+  text-align: center;
+}

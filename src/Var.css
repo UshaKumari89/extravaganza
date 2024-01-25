@@ -1,0 +1,10 @@
+/* variables.css */
+
+:root {
+    --bg-color: rgb(1,102,73);
+    --text-color:rgb(251,237,239);
+    --white-color: #fff;
+    --box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    --border-radius: 8px;
+  }
+  

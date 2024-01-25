@@ -1,0 +1,46 @@
+@import '../../src/Var.css';
+
+.bg-img {
+    height: 100vh; /* Adjust the max-height as needed */
+    overflow: hidden;
+  }
+  
+  .bg-img img {
+    width: 100%;
+ 
+  }
+  
+.about-us-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+   h2{
+    font-size: 2rem;
+   color: #452c2c;
+  }
+   p{
+    text-align: justify;
+   color: #452c2c;
+  }
+  .about-us-container ul li {
+    list-style: none;
+    font-size: 1rem;
+    margin-left: -2.5rem;
+    text-align: justify;
+    color: #452c2c;
+    margin-bottom: 1rem;
+  }
+  .park-name {
+    font-weight: bold;
+    color: #007bff; /* Or any other color you prefer */
+  }
+  
+  .location {
+    font-style: italic;
+    color: #28a745; /* Or any other color you prefer */
+  }
+  
+  /* Add more styles as needed */
+  
