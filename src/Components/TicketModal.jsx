@@ -18,7 +18,7 @@ const TicketModal = ({ ticket, quantity, onAddTickets, onCancel, onQuantityChang
         <h2>{ticket.ticketType} Ticket Details</h2>
         <p>Price: {ticket.price * quantity} SEK</p>
         
-        <p>Selected Quantity: {quantity}</p>
+        <p>Selected Quantity:{quantity}</p>
 
         <div className="quantity-adjustment">
           <button onClick={handleDecrement}>-</button>
